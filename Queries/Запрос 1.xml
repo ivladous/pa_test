@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Query xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>937c6873-897e-49cc-96d7-d10cc4935b68</ID>
+  <CompareLogic>Contains</CompareLogic>
+  <CombineLogic>Or</CombineLogic>
+  <RegistrMatch>false</RegistrMatch>
+  <CheckDirection>ContextItem</CheckDirection>
+  <ParentLevel>0</ParentLevel>
+  <Conditions />
+  <IsFrozen>true</IsFrozen>
+  <FrozenColumnCount>2</FrozenColumnCount>
+  <IsGlobal>false</IsGlobal>
+  <DisplayName>Запрос 1</DisplayName>
+  <SelectedPlaceName>Anywhere</SelectedPlaceName>
+  <SelectedTypeDisplayName>Все</SelectedTypeDisplayName>
+  <SelectedLibraryType>Все</SelectedLibraryType>
+  <VersionString>1.0</VersionString>
+  <Name>Запрос 1</Name>
+  <ItemTypeName>Item</ItemTypeName>
+  <Columns>
+    <SearchColumn>
+      <PropertyName>Id</PropertyName>
+      <PropertySerialize>Id</PropertySerialize>
+      <ColumnSource>Property</ColumnSource>
+      <Backward>false</Backward>
+      <Path />
+      <_columnSource>Property</_columnSource>
+      <Width>200</Width>
+      <DisplayIndex>0</DisplayIndex>
+      <DisplayName>Id</DisplayName>
+      <IsEditable>false</IsEditable>
+      <IsReadonly>true</IsReadonly>
+      <UniquePropertiesNames>
+        <string>Автозапуск клиента визуализации</string>
+        <string>Автоматическое задание значений</string>
+        <string>Автосохранение</string>
+        <string>Адрес</string>
+        <string>Адрес IEC104</string>
+        <string>Активное содержимое</string>
+        <string>Активность</string>
+        <string>Актуальная высота</string>
+        <string>Актуальная координата X</string>
+        <string>Актуальная координата Y</string>
+        <string>Актуальная ширина</string>
+        <string>Алгоритм ST</string>
+        <string>Архивировать</string>
+        <string>Атрибуты компиляции</string>
+        <string>Блокировать доступ к операционной системе</string>
+        <string>Большое значение</string>
+        <string>Булевская инверсия</string>
+        <string>Версия конфигурации проекта</string>
+        <string>Версия проекта</string>
+        <string>Версия среды разработки</string>
+        <string>Вертикальное выравнивание</string>
+        <string>Вид права</string>
+        <string>Видимость</string>
+        <string>Видимость столбца</string>
+        <string>Визуальный кэш</string>
+        <string>Включить масштабирование</string>
+        <string>Внешний Id прототипа</string>
+        <string>Внешний Id элемента</string>
+        <string>Внутренний параметр</string>
+        <string>Время</string>
+        <string>Время бездействия</string>
+        <string>Время последнего действия</string>
+        <string>Время простоя</string>
+        <string>Время сессии, мин</string>
+        <string>Всегда отображать в дереве</string>
+        <string>Выбранный элемент</string>
+        <string>Выделение слоя рамкой</string>
+        <string>Выполнение по условию</string>
+        <string>Выполнять запись на резервном</string>
+        <string>Выполнять на резервном</string>
+        <string>Высота заголовка всплывающих окон</string>
+        <string>Высота ресурса</string>
+        <string>Высота экрана</string>
+        <string>Геометрия</string>
+        <string>Горизонтальное выравнивание</string>
+        <string>Данные</string>
+        <string>Диалог</string>
+        <string>Динамический SVG</string>
+        <string>Длина</string>
+        <string>Длительность сессии</string>
+        <string>Для табличной конвертации</string>
+        <string>Дополнительный поток</string>
+        <string>Доступ</string>
+        <string>Доступ локальный</string>
+        <string>Доступ через OPC UA</string>
+        <string>Есть несохраненные изменения</string>
+        <string>Жирность</string>
+        <string>Завершать сеанс после окончания смены</string>
+        <string>Заголовок</string>
+        <string>Заголовок ST</string>
+        <string>Загруженные элементы</string>
+        <string>Задание типа доступа у канала</string>
+        <string>Заданная высота</string>
+        <string>Заданная ширина</string>
+        <string>Задержка завершения сеанса после окончания смены</string>
+        <string>Задержка записи при старте опроса (циклов)</string>
+        <string>Задержка сброса отказа на резервном, мс</string>
+        <string>Заливка фона</string>
+        <string>Записывать в конфигурацию</string>
+        <string>Запись в журнал</string>
+        <string>Запрашивать пароль для локального входа</string>
+        <string>Запрет загрузки системного ПО</string>
+        <string>Запрет масштабирования</string>
+        <string>Запрет наследования</string>
+        <string>Запрет одновременного входа одного пользователя</string>
+        <string>Запрещено</string>
+        <string>Значение</string>
+        <string>Значение источника</string>
+        <string>Значение поля сообщения</string>
+        <string>Значение приемника</string>
+        <string>Значения входов/выходов</string>
+        <string>Иконка</string>
+        <string>Имя</string>
+        <string>Имя исходного файла модели ifc</string>
+        <string>Имя модели</string>
+        <string>Имя операции</string>
+        <string>Имя отчета</string>
+        <string>Имя ресурса</string>
+        <string>Имя файла</string>
+        <string>Имя шрифта</string>
+        <string>Интервал автосохранения</string>
+        <string>Интерполяция бита</string>
+        <string>Интерполяция источника</string>
+        <string>Интерполяция приемника</string>
+        <string>Использование</string>
+        <string>Использовать для глобальных параметров</string>
+        <string>Использовать сложный пароль</string>
+        <string>Использовать тип LREAL вместо REAL в трансляторе</string>
+        <string>Используемое</string>
+        <string>Источник данных</string>
+        <string>Категории родителей</string>
+        <string>Категория</string>
+        <string>Категория настройки</string>
+        <string>Клавиатурный индекс</string>
+        <string>Ключевое поле</string>
+        <string>Кодировка сохраняемых csv файлов</string>
+        <string>Кол-во элементов</string>
+        <string>Количество запросов</string>
+        <string>Количество каналов</string>
+        <string>Количество неповторяемых паролей</string>
+        <string>Количество подэлементов</string>
+        <string>Количество последовательных неуспешных попыток входа</string>
+        <string>Количество хранимых лог файлов</string>
+        <string>Комментарий</string>
+        <string>Конвертер</string>
+        <string>Конец выделения</string>
+        <string>Координата линии X1</string>
+        <string>Координата линии X2</string>
+        <string>Координата линии Y1</string>
+        <string>Координата линии Y2</string>
+        <string>Координата X</string>
+        <string>Координата Y</string>
+        <string>Курсив</string>
+        <string>Курсор</string>
+        <string>Кэш значений тем</string>
+        <string>Кэш значений тем по контролам</string>
+        <string>Кэш картинок</string>
+        <string>Левое поле для концов ветвлений</string>
+        <string>Левое поле для начала ветвлений</string>
+        <string>Локализованное имя библиотеки</string>
+        <string>Локализованное имя проекта</string>
+        <string>Локализуемое</string>
+        <string>Максимальная высота клеммника</string>
+        <string>Максимальное время</string>
+        <string>Максимальный размер одного лог файла (Мб)</string>
+        <string>Максимум</string>
+        <string>Масштаб редактора</string>
+        <string>Масштаб X</string>
+        <string>Масштаб Y</string>
+        <string>Масштабировать содержимое</string>
+        <string>Место исполнения</string>
+        <string>Место хранения состояния окон</string>
+        <string>Метки</string>
+        <string>Мигание</string>
+        <string>Минимальная длина пароля</string>
+        <string>Минимальная пауза между циклами</string>
+        <string>Минимальное время</string>
+        <string>Минимальный срок действия пароля</string>
+        <string>Минимум</string>
+        <string>Многострочность</string>
+        <string>Модификатор</string>
+        <string>Название хэш-функции</string>
+        <string>Наличие визуализации</string>
+        <string>Направление</string>
+        <string>Наследовать из шкалы</string>
+        <string>Начало выделения</string>
+        <string>Начальное значение</string>
+        <string>Начальный блок</string>
+        <string>Начальный индекс</string>
+        <string>Не использовать настройки, сделанные при работе в другом языке среды</string>
+        <string>Невалидность размещения</string>
+        <string>Необходимая опция RT</string>
+        <string>Неэксклюзивная модель сообщений шкалы AI</string>
+        <string>Нормализовать отображение геометрии</string>
+        <string>Обновлять по изменению</string>
+        <string>Объединение вложенных условий</string>
+        <string>Описание</string>
+        <string>Опции</string>
+        <string>Ориентация</string>
+        <string>Ориентация экрана</string>
+        <string>Отключаемое</string>
+        <string>Отключить исполнение</string>
+        <string>Отключить пароль</string>
+        <string>Отладочные значения</string>
+        <string>Отображаемое имя</string>
+        <string>Отображать в дереве выбора журнала</string>
+        <string>Отображать в палитре</string>
+        <string>Отображать параметры</string>
+        <string>Отображать при выборе перьев</string>
+        <string>Отображать события</string>
+        <string>Отображать элементы в дереве</string>
+        <string>Отобразить ссылкой</string>
+        <string>Отслеживать создание групп прав</string>
+        <string>Очистка памяти на каждом цикле задачи</string>
+        <string>Пакеты NuGet</string>
+        <string>Память</string>
+        <string>Параметры запуска RT</string>
+        <string>Пароль</string>
+        <string>Пароль должен содержать спецсимвол</string>
+        <string>Пароль оператора sa</string>
+        <string>Переключение</string>
+        <string>Перенос</string>
+        <string>Период задачи экрана, мсек</string>
+        <string>Период мигания</string>
+        <string>Период обновления</string>
+        <string>Период, мс</string>
+        <string>Платформа</string>
+        <string>По</string>
+        <string>Поддерживаемые протоколы</string>
+        <string>Поддержка задач</string>
+        <string>Поддержка масштабирования</string>
+        <string>Подключаемые dll</string>
+        <string>Подключение по условию</string>
+        <string>Подключенный код</string>
+        <string>Подтверждение</string>
+        <string>Подтип</string>
+        <string>Подтип для темы</string>
+        <string>Подчеркнутость</string>
+        <string>Позиция</string>
+        <string>Позиция терминирования ветки</string>
+        <string>Показывать линии сетки страниц</string>
+        <string>Показывать сетку</string>
+        <string>Показывать сетку страниц</string>
+        <string>Поле сообщения</string>
+        <string>Полноэкранный режим</string>
+        <string>Порт</string>
+        <string>Порядок</string>
+        <string>Порядок выполнения</string>
+        <string>Порядок категории</string>
+        <string>Порядок сортировки</string>
+        <string>Поток ветвления</string>
+        <string>Правое поле для концов ветвлений</string>
+        <string>Правое поле для начала ветвлений</string>
+        <string>Предельный объем памяти процесса (Мб)</string>
+        <string>Преобразование входящей связи</string>
+        <string>Привязанный элемент</string>
+        <string>Привязка к сетке</string>
+        <string>Признак нажатости</string>
+        <string>Признак развернутости</string>
+        <string>Признак размещенности элемента</string>
+        <string>Приоритет</string>
+        <string>Приоритет подключений клиентов</string>
+        <string>Приращение</string>
+        <string>Проверка экрана</string>
+        <string>Проверять ориентацию экрана</string>
+        <string>Проверять сенсорный экран</string>
+        <string>Программное имя</string>
+        <string>Программный обработчик</string>
+        <string>Продолжительность блокировки при превышении количества неуспешных попыток входа</string>
+        <string>Прозрачность</string>
+        <string>Производитель</string>
+        <string>Простой вид</string>
+        <string>Пространства имен</string>
+        <string>Путь связи</string>
+        <string>Радиус скругления рамки</string>
+        <string>Размер сетки</string>
+        <string>Размер тени</string>
+        <string>Размер шрифта</string>
+        <string>Разорванная связь</string>
+        <string>Разрешено</string>
+        <string>Раскрывать значение</string>
+        <string>Расширение</string>
+        <string>Расширенное Вертикальное выравнивание</string>
+        <string>Расширенное Горизонтальное выравнивание</string>
+        <string>Расширенное имя</string>
+        <string>Расширенный Вертикальный сдвиг</string>
+        <string>Расширенный Горизонтальный сдвиг</string>
+        <string>Режим выделения</string>
+        <string>Ресурс</string>
+        <string>С</string>
+        <string>Свойство по умолчанию</string>
+        <string>Связывание переменных</string>
+        <string>Сдвиг рамки</string>
+        <string>Скручивание X</string>
+        <string>Скручивание Y</string>
+        <string>Скрывать значение</string>
+        <string>Скрывать при отсутствии прав на управление</string>
+        <string>Скрыть параметр</string>
+        <string>Совместимые типы библиотек</string>
+        <string>Соль</string>
+        <string>Сортировка столбца</string>
+        <string>Состояние активности слоя</string>
+        <string>Сохранять</string>
+        <string>Сохранять пропорции</string>
+        <string>Спецификатор</string>
+        <string>Список значений</string>
+        <string>Список разрешенных браузеров клиентов</string>
+        <string>Список разрешенных IP-адресов подключений клиентов</string>
+        <string>Способ задания SFC условия или действия текстом ST</string>
+        <string>Способ записи</string>
+        <string>Способ исполнения</string>
+        <string>Способ исполнения old</string>
+        <string>Способ обновления</string>
+        <string>Способ отображения графиков</string>
+        <string>Справочный раздел</string>
+        <string>Срок действия пароля</string>
+        <string>Стиль рамки</string>
+        <string>Стиль шрифта</string>
+        <string>Столбец</string>
+        <string>Строка</string>
+        <string>Таймаут выполнения задач</string>
+        <string>Таймаут остановки системы</string>
+        <string>Текст</string>
+        <string>Тема</string>
+        <string>Терминированность ветки</string>
+        <string>Тип высоты</string>
+        <string>Тип зацикливания</string>
+        <string>Тип значения</string>
+        <string>Тип канала</string>
+        <string>Тип катушки</string>
+        <string>Тип контакта</string>
+        <string>Тип координат</string>
+        <string>Тип панели</string>
+        <string>Тип поля сообщения</string>
+        <string>Тип приемника</string>
+        <string>Тип размера</string>
+        <string>Тип транслятора</string>
+        <string>Тип условия журнала</string>
+        <string>Тип хранения БД</string>
+        <string>Тип ширины</string>
+        <string>Тип элемента</string>
+        <string>Тип X</string>
+        <string>Тип Y</string>
+        <string>Толщина рамки</string>
+        <string>Только выделенные действия</string>
+        <string>Только выделенные условия</string>
+        <string>Только связанные входы/выходы</string>
+        <string>Только чтение</string>
+        <string>Транслировать дочерние</string>
+        <string>Требовать пароль при подтверждении</string>
+        <string>Требуемая версия редактора</string>
+        <string>Требуемая версия среды разработки</string>
+        <string>Тултип</string>
+        <string>Угол поворота</string>
+        <string>Уровень предупреждений</string>
+        <string>Фиксировать попытки выполнения действий</string>
+        <string>Формат значений</string>
+        <string>Формат текста</string>
+        <string>Формировать историю действий</string>
+        <string>Формировать отказ при отказе всех модулей</string>
+        <string>Формировать отказ узла</string>
+        <string>Функция сравнения</string>
+        <string>Хэшированный пароль</string>
+        <string>Цвет рамки</string>
+        <string>Цвет текста</string>
+        <string>Цвет тени</string>
+        <string>Центр поворота X</string>
+        <string>Центр поворота Y</string>
+        <string>Частота мигания</string>
+        <string>Шаблон имени канала</string>
+        <string>Шаблон имени последовательного порта</string>
+        <string>Ширина ресурса</string>
+        <string>Ширина столбца</string>
+        <string>Ширина экрана</string>
+        <string>Язык исполнения</string>
+        <string>DPI экрана</string>
+        <string>GUID</string>
+        <string>Id драйвера</string>
+        <string>Id канала</string>
+        <string>Id настройки</string>
+        <string>Id описания</string>
+        <string>Id последнего действия</string>
+        <string>Id проекта библиотеки</string>
+        <string>Id элемента</string>
+        <string>Id элемента внешней библиотеки</string>
+        <string>IP адрес</string>
+        <string>MasterSCADA.BimServer.Model.Geometry</string>
+        <string>MasterSCADA.BimServer.Model.Metadata</string>
+        <string>MasterSCADA.BimServer.Model.ObjectDisplayNames</string>
+        <string>MasterSCADA.BimServer.Model.StoreyDisplayNames</string>
+        <string>MasterSCADA.Report.Report</string>
+        <string>MasterSCADA.Security.UseConfirmation</string>
+        <string>SourceMax</string>
+        <string>SourceMin</string>
+        <string>ST тип поля</string>
+        <string>TargetMax</string>
+        <string>TargetMin</string>
+        <string>Z порядок</string>
+      </UniquePropertiesNames>
+    </SearchColumn>
+    <SearchColumn>
+      <PropertyName>Имя</PropertyName>
+      <PropertySerialize>DisplayName</PropertySerialize>
+      <ColumnSource>Property</ColumnSource>
+      <Backward>false</Backward>
+      <Path />
+      <_columnSource>Property</_columnSource>
+      <Width>200</Width>
+      <DisplayIndex>1</DisplayIndex>
+      <DisplayName>Имя</DisplayName>
+      <IsEditable>false</IsEditable>
+      <IsReadonly>false</IsReadonly>
+      <UniquePropertiesNames>
+        <string>Автозапуск клиента визуализации</string>
+        <string>Автоматическое задание значений</string>
+        <string>Автосохранение</string>
+        <string>Адрес</string>
+        <string>Адрес IEC104</string>
+        <string>Активное содержимое</string>
+        <string>Активность</string>
+        <string>Актуальная высота</string>
+        <string>Актуальная координата X</string>
+        <string>Актуальная координата Y</string>
+        <string>Актуальная ширина</string>
+        <string>Алгоритм ST</string>
+        <string>Архивировать</string>
+        <string>Атрибуты компиляции</string>
+        <string>Блокировать доступ к операционной системе</string>
+        <string>Большое значение</string>
+        <string>Булевская инверсия</string>
+        <string>Версия конфигурации проекта</string>
+        <string>Версия проекта</string>
+        <string>Версия среды разработки</string>
+        <string>Вертикальное выравнивание</string>
+        <string>Вид права</string>
+        <string>Видимость</string>
+        <string>Видимость столбца</string>
+        <string>Визуальный кэш</string>
+        <string>Включить масштабирование</string>
+        <string>Внешний Id прототипа</string>
+        <string>Внешний Id элемента</string>
+        <string>Внутренний параметр</string>
+        <string>Время</string>
+        <string>Время бездействия</string>
+        <string>Время последнего действия</string>
+        <string>Время простоя</string>
+        <string>Время сессии, мин</string>
+        <string>Всегда отображать в дереве</string>
+        <string>Выбранный элемент</string>
+        <string>Выделение слоя рамкой</string>
+        <string>Выполнение по условию</string>
+        <string>Выполнять запись на резервном</string>
+        <string>Выполнять на резервном</string>
+        <string>Высота заголовка всплывающих окон</string>
+        <string>Высота ресурса</string>
+        <string>Высота экрана</string>
+        <string>Геометрия</string>
+        <string>Горизонтальное выравнивание</string>
+        <string>Данные</string>
+        <string>Диалог</string>
+        <string>Динамический SVG</string>
+        <string>Длина</string>
+        <string>Длительность сессии</string>
+        <string>Для табличной конвертации</string>
+        <string>Дополнительный поток</string>
+        <string>Доступ</string>
+        <string>Доступ локальный</string>
+        <string>Доступ через OPC UA</string>
+        <string>Есть несохраненные изменения</string>
+        <string>Жирность</string>
+        <string>Завершать сеанс после окончания смены</string>
+        <string>Заголовок</string>
+        <string>Заголовок ST</string>
+        <string>Загруженные элементы</string>
+        <string>Задание типа доступа у канала</string>
+        <string>Заданная высота</string>
+        <string>Заданная ширина</string>
+        <string>Задержка завершения сеанса после окончания смены</string>
+        <string>Задержка записи при старте опроса (циклов)</string>
+        <string>Задержка сброса отказа на резервном, мс</string>
+        <string>Заливка фона</string>
+        <string>Записывать в конфигурацию</string>
+        <string>Запись в журнал</string>
+        <string>Запрашивать пароль для локального входа</string>
+        <string>Запрет загрузки системного ПО</string>
+        <string>Запрет масштабирования</string>
+        <string>Запрет наследования</string>
+        <string>Запрет одновременного входа одного пользователя</string>
+        <string>Запрещено</string>
+        <string>Значение</string>
+        <string>Значение источника</string>
+        <string>Значение поля сообщения</string>
+        <string>Значение приемника</string>
+        <string>Значения входов/выходов</string>
+        <string>Иконка</string>
+        <string>Имя</string>
+        <string>Имя исходного файла модели ifc</string>
+        <string>Имя модели</string>
+        <string>Имя операции</string>
+        <string>Имя отчета</string>
+        <string>Имя ресурса</string>
+        <string>Имя файла</string>
+        <string>Имя шрифта</string>
+        <string>Интервал автосохранения</string>
+        <string>Интерполяция бита</string>
+        <string>Интерполяция источника</string>
+        <string>Интерполяция приемника</string>
+        <string>Использование</string>
+        <string>Использовать для глобальных параметров</string>
+        <string>Использовать сложный пароль</string>
+        <string>Использовать тип LREAL вместо REAL в трансляторе</string>
+        <string>Используемое</string>
+        <string>Источник данных</string>
+        <string>Категории родителей</string>
+        <string>Категория</string>
+        <string>Категория настройки</string>
+        <string>Клавиатурный индекс</string>
+        <string>Ключевое поле</string>
+        <string>Кодировка сохраняемых csv файлов</string>
+        <string>Кол-во элементов</string>
+        <string>Количество запросов</string>
+        <string>Количество каналов</string>
+        <string>Количество неповторяемых паролей</string>
+        <string>Количество подэлементов</string>
+        <string>Количество последовательных неуспешных попыток входа</string>
+        <string>Количество хранимых лог файлов</string>
+        <string>Комментарий</string>
+        <string>Конвертер</string>
+        <string>Конец выделения</string>
+        <string>Координата линии X1</string>
+        <string>Координата линии X2</string>
+        <string>Координата линии Y1</string>
+        <string>Координата линии Y2</string>
+        <string>Координата X</string>
+        <string>Координата Y</string>
+        <string>Курсив</string>
+        <string>Курсор</string>
+        <string>Кэш значений тем</string>
+        <string>Кэш значений тем по контролам</string>
+        <string>Кэш картинок</string>
+        <string>Левое поле для концов ветвлений</string>
+        <string>Левое поле для начала ветвлений</string>
+        <string>Локализованное имя библиотеки</string>
+        <string>Локализованное имя проекта</string>
+        <string>Локализуемое</string>
+        <string>Максимальная высота клеммника</string>
+        <string>Максимальное время</string>
+        <string>Максимальный размер одного лог файла (Мб)</string>
+        <string>Максимум</string>
+        <string>Масштаб редактора</string>
+        <string>Масштаб X</string>
+        <string>Масштаб Y</string>
+        <string>Масштабировать содержимое</string>
+        <string>Место исполнения</string>
+        <string>Место хранения состояния окон</string>
+        <string>Метки</string>
+        <string>Мигание</string>
+        <string>Минимальная длина пароля</string>
+        <string>Минимальная пауза между циклами</string>
+        <string>Минимальное время</string>
+        <string>Минимальный срок действия пароля</string>
+        <string>Минимум</string>
+        <string>Многострочность</string>
+        <string>Модификатор</string>
+        <string>Название хэш-функции</string>
+        <string>Наличие визуализации</string>
+        <string>Направление</string>
+        <string>Наследовать из шкалы</string>
+        <string>Начало выделения</string>
+        <string>Начальное значение</string>
+        <string>Начальный блок</string>
+        <string>Начальный индекс</string>
+        <string>Не использовать настройки, сделанные при работе в другом языке среды</string>
+        <string>Невалидность размещения</string>
+        <string>Необходимая опция RT</string>
+        <string>Неэксклюзивная модель сообщений шкалы AI</string>
+        <string>Нормализовать отображение геометрии</string>
+        <string>Обновлять по изменению</string>
+        <string>Объединение вложенных условий</string>
+        <string>Описание</string>
+        <string>Опции</string>
+        <string>Ориентация</string>
+        <string>Ориентация экрана</string>
+        <string>Отключаемое</string>
+        <string>Отключить исполнение</string>
+        <string>Отключить пароль</string>
+        <string>Отладочные значения</string>
+        <string>Отображаемое имя</string>
+        <string>Отображать в дереве выбора журнала</string>
+        <string>Отображать в палитре</string>
+        <string>Отображать параметры</string>
+        <string>Отображать при выборе перьев</string>
+        <string>Отображать события</string>
+        <string>Отображать элементы в дереве</string>
+        <string>Отобразить ссылкой</string>
+        <string>Отслеживать создание групп прав</string>
+        <string>Очистка памяти на каждом цикле задачи</string>
+        <string>Пакеты NuGet</string>
+        <string>Память</string>
+        <string>Параметры запуска RT</string>
+        <string>Пароль</string>
+        <string>Пароль должен содержать спецсимвол</string>
+        <string>Пароль оператора sa</string>
+        <string>Переключение</string>
+        <string>Перенос</string>
+        <string>Период задачи экрана, мсек</string>
+        <string>Период мигания</string>
+        <string>Период обновления</string>
+        <string>Период, мс</string>
+        <string>Платформа</string>
+        <string>По</string>
+        <string>Поддерживаемые протоколы</string>
+        <string>Поддержка задач</string>
+        <string>Поддержка масштабирования</string>
+        <string>Подключаемые dll</string>
+        <string>Подключение по условию</string>
+        <string>Подключенный код</string>
+        <string>Подтверждение</string>
+        <string>Подтип</string>
+        <string>Подтип для темы</string>
+        <string>Подчеркнутость</string>
+        <string>Позиция</string>
+        <string>Позиция терминирования ветки</string>
+        <string>Показывать линии сетки страниц</string>
+        <string>Показывать сетку</string>
+        <string>Показывать сетку страниц</string>
+        <string>Поле сообщения</string>
+        <string>Полноэкранный режим</string>
+        <string>Порт</string>
+        <string>Порядок</string>
+        <string>Порядок выполнения</string>
+        <string>Порядок категории</string>
+        <string>Порядок сортировки</string>
+        <string>Поток ветвления</string>
+        <string>Правое поле для концов ветвлений</string>
+        <string>Правое поле для начала ветвлений</string>
+        <string>Предельный объем памяти процесса (Мб)</string>
+        <string>Преобразование входящей связи</string>
+        <string>Привязанный элемент</string>
+        <string>Привязка к сетке</string>
+        <string>Признак нажатости</string>
+        <string>Признак развернутости</string>
+        <string>Признак размещенности элемента</string>
+        <string>Приоритет</string>
+        <string>Приоритет подключений клиентов</string>
+        <string>Приращение</string>
+        <string>Проверка экрана</string>
+        <string>Проверять ориентацию экрана</string>
+        <string>Проверять сенсорный экран</string>
+        <string>Программное имя</string>
+        <string>Программный обработчик</string>
+        <string>Продолжительность блокировки при превышении количества неуспешных попыток входа</string>
+        <string>Прозрачность</string>
+        <string>Производитель</string>
+        <string>Простой вид</string>
+        <string>Пространства имен</string>
+        <string>Путь связи</string>
+        <string>Радиус скругления рамки</string>
+        <string>Размер сетки</string>
+        <string>Размер тени</string>
+        <string>Размер шрифта</string>
+        <string>Разорванная связь</string>
+        <string>Разрешено</string>
+        <string>Раскрывать значение</string>
+        <string>Расширение</string>
+        <string>Расширенное Вертикальное выравнивание</string>
+        <string>Расширенное Горизонтальное выравнивание</string>
+        <string>Расширенное имя</string>
+        <string>Расширенный Вертикальный сдвиг</string>
+        <string>Расширенный Горизонтальный сдвиг</string>
+        <string>Режим выделения</string>
+        <string>Ресурс</string>
+        <string>С</string>
+        <string>Свойство по умолчанию</string>
+        <string>Связывание переменных</string>
+        <string>Сдвиг рамки</string>
+        <string>Скручивание X</string>
+        <string>Скручивание Y</string>
+        <string>Скрывать значение</string>
+        <string>Скрывать при отсутствии прав на управление</string>
+        <string>Скрыть параметр</string>
+        <string>Совместимые типы библиотек</string>
+        <string>Соль</string>
+        <string>Сортировка столбца</string>
+        <string>Состояние активности слоя</string>
+        <string>Сохранять</string>
+        <string>Сохранять пропорции</string>
+        <string>Спецификатор</string>
+        <string>Список значений</string>
+        <string>Список разрешенных браузеров клиентов</string>
+        <string>Список разрешенных IP-адресов подключений клиентов</string>
+        <string>Способ задания SFC условия или действия текстом ST</string>
+        <string>Способ записи</string>
+        <string>Способ исполнения</string>
+        <string>Способ исполнения old</string>
+        <string>Способ обновления</string>
+        <string>Способ отображения графиков</string>
+        <string>Справочный раздел</string>
+        <string>Срок действия пароля</string>
+        <string>Стиль рамки</string>
+        <string>Стиль шрифта</string>
+        <string>Столбец</string>
+        <string>Строка</string>
+        <string>Таймаут выполнения задач</string>
+        <string>Таймаут остановки системы</string>
+        <string>Текст</string>
+        <string>Тема</string>
+        <string>Терминированность ветки</string>
+        <string>Тип высоты</string>
+        <string>Тип зацикливания</string>
+        <string>Тип значения</string>
+        <string>Тип канала</string>
+        <string>Тип катушки</string>
+        <string>Тип контакта</string>
+        <string>Тип координат</string>
+        <string>Тип панели</string>
+        <string>Тип поля сообщения</string>
+        <string>Тип приемника</string>
+        <string>Тип размера</string>
+        <string>Тип транслятора</string>
+        <string>Тип условия журнала</string>
+        <string>Тип хранения БД</string>
+        <string>Тип ширины</string>
+        <string>Тип элемента</string>
+        <string>Тип X</string>
+        <string>Тип Y</string>
+        <string>Толщина рамки</string>
+        <string>Только выделенные действия</string>
+        <string>Только выделенные условия</string>
+        <string>Только связанные входы/выходы</string>
+        <string>Только чтение</string>
+        <string>Транслировать дочерние</string>
+        <string>Требовать пароль при подтверждении</string>
+        <string>Требуемая версия редактора</string>
+        <string>Требуемая версия среды разработки</string>
+        <string>Тултип</string>
+        <string>Угол поворота</string>
+        <string>Уровень предупреждений</string>
+        <string>Фиксировать попытки выполнения действий</string>
+        <string>Формат значений</string>
+        <string>Формат текста</string>
+        <string>Формировать историю действий</string>
+        <string>Формировать отказ при отказе всех модулей</string>
+        <string>Формировать отказ узла</string>
+        <string>Функция сравнения</string>
+        <string>Хэшированный пароль</string>
+        <string>Цвет рамки</string>
+        <string>Цвет текста</string>
+        <string>Цвет тени</string>
+        <string>Центр поворота X</string>
+        <string>Центр поворота Y</string>
+        <string>Частота мигания</string>
+        <string>Шаблон имени канала</string>
+        <string>Шаблон имени последовательного порта</string>
+        <string>Ширина ресурса</string>
+        <string>Ширина столбца</string>
+        <string>Ширина экрана</string>
+        <string>Язык исполнения</string>
+        <string>DPI экрана</string>
+        <string>GUID</string>
+        <string>Id драйвера</string>
+        <string>Id канала</string>
+        <string>Id настройки</string>
+        <string>Id описания</string>
+        <string>Id последнего действия</string>
+        <string>Id проекта библиотеки</string>
+        <string>Id элемента внешней библиотеки</string>
+        <string>IP адрес</string>
+        <string>MasterSCADA.BimServer.Model.Geometry</string>
+        <string>MasterSCADA.BimServer.Model.Metadata</string>
+        <string>MasterSCADA.BimServer.Model.ObjectDisplayNames</string>
+        <string>MasterSCADA.BimServer.Model.StoreyDisplayNames</string>
+        <string>MasterSCADA.Report.Report</string>
+        <string>MasterSCADA.Security.UseConfirmation</string>
+        <string>SourceMax</string>
+        <string>SourceMin</string>
+        <string>ST тип поля</string>
+        <string>TargetMax</string>
+        <string>TargetMin</string>
+        <string>Z порядок</string>
+      </UniquePropertiesNames>
+    </SearchColumn>
+    <SearchColumn>
+      <PropertyName>Полное имя</PropertyName>
+      <PropertySerialize>FullName</PropertySerialize>
+      <ColumnSource>Property</ColumnSource>
+      <Backward>false</Backward>
+      <Path />
+      <_columnSource>Property</_columnSource>
+      <Width>200</Width>
+      <DisplayIndex>2</DisplayIndex>
+      <DisplayName>Полное имя</DisplayName>
+      <IsEditable>false</IsEditable>
+      <IsReadonly>true</IsReadonly>
+      <UniquePropertiesNames>
+        <string>Автозапуск клиента визуализации</string>
+        <string>Автоматическое задание значений</string>
+        <string>Автосохранение</string>
+        <string>Адрес</string>
+        <string>Адрес IEC104</string>
+        <string>Активное содержимое</string>
+        <string>Активность</string>
+        <string>Актуальная высота</string>
+        <string>Актуальная координата X</string>
+        <string>Актуальная координата Y</string>
+        <string>Актуальная ширина</string>
+        <string>Алгоритм ST</string>
+        <string>Архивировать</string>
+        <string>Атрибуты компиляции</string>
+        <string>Блокировать доступ к операционной системе</string>
+        <string>Большое значение</string>
+        <string>Булевская инверсия</string>
+        <string>Версия конфигурации проекта</string>
+        <string>Версия проекта</string>
+        <string>Версия среды разработки</string>
+        <string>Вертикальное выравнивание</string>
+        <string>Вид права</string>
+        <string>Видимость</string>
+        <string>Видимость столбца</string>
+        <string>Визуальный кэш</string>
+        <string>Включить масштабирование</string>
+        <string>Внешний Id прототипа</string>
+        <string>Внешний Id элемента</string>
+        <string>Внутренний параметр</string>
+        <string>Время</string>
+        <string>Время бездействия</string>
+        <string>Время последнего действия</string>
+        <string>Время простоя</string>
+        <string>Время сессии, мин</string>
+        <string>Всегда отображать в дереве</string>
+        <string>Выбранный элемент</string>
+        <string>Выделение слоя рамкой</string>
+        <string>Выполнение по условию</string>
+        <string>Выполнять запись на резервном</string>
+        <string>Выполнять на резервном</string>
+        <string>Высота заголовка всплывающих окон</string>
+        <string>Высота ресурса</string>
+        <string>Высота экрана</string>
+        <string>Геометрия</string>
+        <string>Горизонтальное выравнивание</string>
+        <string>Данные</string>
+        <string>Диалог</string>
+        <string>Динамический SVG</string>
+        <string>Длина</string>
+        <string>Длительность сессии</string>
+        <string>Для табличной конвертации</string>
+        <string>Дополнительный поток</string>
+        <string>Доступ</string>
+        <string>Доступ локальный</string>
+        <string>Доступ через OPC UA</string>
+        <string>Есть несохраненные изменения</string>
+        <string>Жирность</string>
+        <string>Завершать сеанс после окончания смены</string>
+        <string>Заголовок</string>
+        <string>Заголовок ST</string>
+        <string>Загруженные элементы</string>
+        <string>Задание типа доступа у канала</string>
+        <string>Заданная высота</string>
+        <string>Заданная ширина</string>
+        <string>Задержка завершения сеанса после окончания смены</string>
+        <string>Задержка записи при старте опроса (циклов)</string>
+        <string>Задержка сброса отказа на резервном, мс</string>
+        <string>Заливка фона</string>
+        <string>Записывать в конфигурацию</string>
+        <string>Запись в журнал</string>
+        <string>Запрашивать пароль для локального входа</string>
+        <string>Запрет загрузки системного ПО</string>
+        <string>Запрет масштабирования</string>
+        <string>Запрет наследования</string>
+        <string>Запрет одновременного входа одного пользователя</string>
+        <string>Запрещено</string>
+        <string>Значение</string>
+        <string>Значение источника</string>
+        <string>Значение поля сообщения</string>
+        <string>Значение приемника</string>
+        <string>Значения входов/выходов</string>
+        <string>Иконка</string>
+        <string>Имя</string>
+        <string>Имя исходного файла модели ifc</string>
+        <string>Имя модели</string>
+        <string>Имя операции</string>
+        <string>Имя отчета</string>
+        <string>Имя ресурса</string>
+        <string>Имя файла</string>
+        <string>Имя шрифта</string>
+        <string>Интервал автосохранения</string>
+        <string>Интерполяция бита</string>
+        <string>Интерполяция источника</string>
+        <string>Интерполяция приемника</string>
+        <string>Использование</string>
+        <string>Использовать для глобальных параметров</string>
+        <string>Использовать сложный пароль</string>
+        <string>Использовать тип LREAL вместо REAL в трансляторе</string>
+        <string>Используемое</string>
+        <string>Источник данных</string>
+        <string>Категории родителей</string>
+        <string>Категория</string>
+        <string>Категория настройки</string>
+        <string>Клавиатурный индекс</string>
+        <string>Ключевое поле</string>
+        <string>Кодировка сохраняемых csv файлов</string>
+        <string>Кол-во элементов</string>
+        <string>Количество запросов</string>
+        <string>Количество каналов</string>
+        <string>Количество неповторяемых паролей</string>
+        <string>Количество подэлементов</string>
+        <string>Количество последовательных неуспешных попыток входа</string>
+        <string>Количество хранимых лог файлов</string>
+        <string>Комментарий</string>
+        <string>Конвертер</string>
+        <string>Конец выделения</string>
+        <string>Координата линии X1</string>
+        <string>Координата линии X2</string>
+        <string>Координата линии Y1</string>
+        <string>Координата линии Y2</string>
+        <string>Координата X</string>
+        <string>Координата Y</string>
+        <string>Курсив</string>
+        <string>Курсор</string>
+        <string>Кэш значений тем</string>
+        <string>Кэш значений тем по контролам</string>
+        <string>Кэш картинок</string>
+        <string>Левое поле для концов ветвлений</string>
+        <string>Левое поле для начала ветвлений</string>
+        <string>Локализованное имя библиотеки</string>
+        <string>Локализованное имя проекта</string>
+        <string>Локализуемое</string>
+        <string>Максимальная высота клеммника</string>
+        <string>Максимальное время</string>
+        <string>Максимальный размер одного лог файла (Мб)</string>
+        <string>Максимум</string>
+        <string>Масштаб редактора</string>
+        <string>Масштаб X</string>
+        <string>Масштаб Y</string>
+        <string>Масштабировать содержимое</string>
+        <string>Место исполнения</string>
+        <string>Место хранения состояния окон</string>
+        <string>Метки</string>
+        <string>Мигание</string>
+        <string>Минимальная длина пароля</string>
+        <string>Минимальная пауза между циклами</string>
+        <string>Минимальное время</string>
+        <string>Минимальный срок действия пароля</string>
+        <string>Минимум</string>
+        <string>Многострочность</string>
+        <string>Модификатор</string>
+        <string>Название хэш-функции</string>
+        <string>Наличие визуализации</string>
+        <string>Направление</string>
+        <string>Наследовать из шкалы</string>
+        <string>Начало выделения</string>
+        <string>Начальное значение</string>
+        <string>Начальный блок</string>
+        <string>Начальный индекс</string>
+        <string>Не использовать настройки, сделанные при работе в другом языке среды</string>
+        <string>Невалидность размещения</string>
+        <string>Необходимая опция RT</string>
+        <string>Неэксклюзивная модель сообщений шкалы AI</string>
+        <string>Нормализовать отображение геометрии</string>
+        <string>Обновлять по изменению</string>
+        <string>Объединение вложенных условий</string>
+        <string>Описание</string>
+        <string>Опции</string>
+        <string>Ориентация</string>
+        <string>Ориентация экрана</string>
+        <string>Отключаемое</string>
+        <string>Отключить исполнение</string>
+        <string>Отключить пароль</string>
+        <string>Отладочные значения</string>
+        <string>Отображаемое имя</string>
+        <string>Отображать в дереве выбора журнала</string>
+        <string>Отображать в палитре</string>
+        <string>Отображать параметры</string>
+        <string>Отображать при выборе перьев</string>
+        <string>Отображать события</string>
+        <string>Отображать элементы в дереве</string>
+        <string>Отобразить ссылкой</string>
+        <string>Отслеживать создание групп прав</string>
+        <string>Очистка памяти на каждом цикле задачи</string>
+        <string>Пакеты NuGet</string>
+        <string>Память</string>
+        <string>Параметры запуска RT</string>
+        <string>Пароль</string>
+        <string>Пароль должен содержать спецсимвол</string>
+        <string>Пароль оператора sa</string>
+        <string>Переключение</string>
+        <string>Перенос</string>
+        <string>Период задачи экрана, мсек</string>
+        <string>Период мигания</string>
+        <string>Период обновления</string>
+        <string>Период, мс</string>
+        <string>Платформа</string>
+        <string>По</string>
+        <string>Поддерживаемые протоколы</string>
+        <string>Поддержка задач</string>
+        <string>Поддержка масштабирования</string>
+        <string>Подключаемые dll</string>
+        <string>Подключение по условию</string>
+        <string>Подключенный код</string>
+        <string>Подтверждение</string>
+        <string>Подтип</string>
+        <string>Подтип для темы</string>
+        <string>Подчеркнутость</string>
+        <string>Позиция</string>
+        <string>Позиция терминирования ветки</string>
+        <string>Показывать линии сетки страниц</string>
+        <string>Показывать сетку</string>
+        <string>Показывать сетку страниц</string>
+        <string>Поле сообщения</string>
+        <string>Полное имя</string>
+        <string>Полноэкранный режим</string>
+        <string>Порт</string>
+        <string>Порядок</string>
+        <string>Порядок выполнения</string>
+        <string>Порядок категории</string>
+        <string>Порядок сортировки</string>
+        <string>Поток ветвления</string>
+        <string>Правое поле для концов ветвлений</string>
+        <string>Правое поле для начала ветвлений</string>
+        <string>Предельный объем памяти процесса (Мб)</string>
+        <string>Преобразование входящей связи</string>
+        <string>Привязанный элемент</string>
+        <string>Привязка к сетке</string>
+        <string>Признак нажатости</string>
+        <string>Признак развернутости</string>
+        <string>Признак размещенности элемента</string>
+        <string>Приоритет</string>
+        <string>Приоритет подключений клиентов</string>
+        <string>Приращение</string>
+        <string>Проверка экрана</string>
+        <string>Проверять ориентацию экрана</string>
+        <string>Проверять сенсорный экран</string>
+        <string>Программное имя</string>
+        <string>Программный обработчик</string>
+        <string>Продолжительность блокировки при превышении количества неуспешных попыток входа</string>
+        <string>Прозрачность</string>
+        <string>Производитель</string>
+        <string>Простой вид</string>
+        <string>Пространства имен</string>
+        <string>Путь связи</string>
+        <string>Радиус скругления рамки</string>
+        <string>Размер сетки</string>
+        <string>Размер тени</string>
+        <string>Размер шрифта</string>
+        <string>Разорванная связь</string>
+        <string>Разрешено</string>
+        <string>Раскрывать значение</string>
+        <string>Расширение</string>
+        <string>Расширенное Вертикальное выравнивание</string>
+        <string>Расширенное Горизонтальное выравнивание</string>
+        <string>Расширенное имя</string>
+        <string>Расширенный Вертикальный сдвиг</string>
+        <string>Расширенный Горизонтальный сдвиг</string>
+        <string>Режим выделения</string>
+        <string>Ресурс</string>
+        <string>С</string>
+        <string>Свойство по умолчанию</string>
+        <string>Связывание переменных</string>
+        <string>Сдвиг рамки</string>
+        <string>Скручивание X</string>
+        <string>Скручивание Y</string>
+        <string>Скрывать значение</string>
+        <string>Скрывать при отсутствии прав на управление</string>
+        <string>Скрыть параметр</string>
+        <string>Совместимые типы библиотек</string>
+        <string>Соль</string>
+        <string>Сортировка столбца</string>
+        <string>Состояние активности слоя</string>
+        <string>Сохранять</string>
+        <string>Сохранять пропорции</string>
+        <string>Спецификатор</string>
+        <string>Список значений</string>
+        <string>Список разрешенных браузеров клиентов</string>
+        <string>Список разрешенных IP-адресов подключений клиентов</string>
+        <string>Способ задания SFC условия или действия текстом ST</string>
+        <string>Способ записи</string>
+        <string>Способ исполнения</string>
+        <string>Способ исполнения old</string>
+        <string>Способ обновления</string>
+        <string>Способ отображения графиков</string>
+        <string>Справочный раздел</string>
+        <string>Срок действия пароля</string>
+        <string>Стиль рамки</string>
+        <string>Стиль шрифта</string>
+        <string>Столбец</string>
+        <string>Строка</string>
+        <string>Таймаут выполнения задач</string>
+        <string>Таймаут остановки системы</string>
+        <string>Текст</string>
+        <string>Тема</string>
+        <string>Терминированность ветки</string>
+        <string>Тип высоты</string>
+        <string>Тип зацикливания</string>
+        <string>Тип значения</string>
+        <string>Тип канала</string>
+        <string>Тип катушки</string>
+        <string>Тип контакта</string>
+        <string>Тип координат</string>
+        <string>Тип панели</string>
+        <string>Тип поля сообщения</string>
+        <string>Тип приемника</string>
+        <string>Тип размера</string>
+        <string>Тип транслятора</string>
+        <string>Тип условия журнала</string>
+        <string>Тип хранения БД</string>
+        <string>Тип ширины</string>
+        <string>Тип элемента</string>
+        <string>Тип X</string>
+        <string>Тип Y</string>
+        <string>Толщина рамки</string>
+        <string>Только выделенные действия</string>
+        <string>Только выделенные условия</string>
+        <string>Только связанные входы/выходы</string>
+        <string>Только чтение</string>
+        <string>Транслировать дочерние</string>
+        <string>Требовать пароль при подтверждении</string>
+        <string>Требуемая версия редактора</string>
+        <string>Требуемая версия среды разработки</string>
+        <string>Тултип</string>
+        <string>Угол поворота</string>
+        <string>Уровень предупреждений</string>
+        <string>Фиксировать попытки выполнения действий</string>
+        <string>Формат значений</string>
+        <string>Формат текста</string>
+        <string>Формировать историю действий</string>
+        <string>Формировать отказ при отказе всех модулей</string>
+        <string>Формировать отказ узла</string>
+        <string>Функция сравнения</string>
+        <string>Хэшированный пароль</string>
+        <string>Цвет рамки</string>
+        <string>Цвет текста</string>
+        <string>Цвет тени</string>
+        <string>Центр поворота X</string>
+        <string>Центр поворота Y</string>
+        <string>Частота мигания</string>
+        <string>Шаблон имени канала</string>
+        <string>Шаблон имени последовательного порта</string>
+        <string>Ширина ресурса</string>
+        <string>Ширина столбца</string>
+        <string>Ширина экрана</string>
+        <string>Язык исполнения</string>
+        <string>DPI экрана</string>
+        <string>GUID</string>
+        <string>Id драйвера</string>
+        <string>Id канала</string>
+        <string>Id настройки</string>
+        <string>Id описания</string>
+        <string>Id последнего действия</string>
+        <string>Id проекта библиотеки</string>
+        <string>Id элемента внешней библиотеки</string>
+        <string>IP адрес</string>
+        <string>MasterSCADA.BimServer.Model.Geometry</string>
+        <string>MasterSCADA.BimServer.Model.Metadata</string>
+        <string>MasterSCADA.BimServer.Model.ObjectDisplayNames</string>
+        <string>MasterSCADA.BimServer.Model.StoreyDisplayNames</string>
+        <string>MasterSCADA.Report.Report</string>
+        <string>MasterSCADA.Security.UseConfirmation</string>
+        <string>SourceMax</string>
+        <string>SourceMin</string>
+        <string>ST тип поля</string>
+        <string>TargetMax</string>
+        <string>TargetMin</string>
+        <string>Z порядок</string>
+      </UniquePropertiesNames>
+    </SearchColumn>
+    <SearchColumn>
+      <PropertyName>Классификация</PropertyName>
+      <PropertySerialize>ItemTypeDisplayName</PropertySerialize>
+      <ColumnSource>Property</ColumnSource>
+      <Backward>false</Backward>
+      <Path />
+      <_columnSource>Property</_columnSource>
+      <Width>200</Width>
+      <DisplayIndex>3</DisplayIndex>
+      <DisplayName>Классификация</DisplayName>
+      <IsEditable>false</IsEditable>
+      <IsReadonly>true</IsReadonly>
+      <UniquePropertiesNames>
+        <string>Автозапуск клиента визуализации</string>
+        <string>Автоматическое задание значений</string>
+        <string>Автосохранение</string>
+        <string>Адрес</string>
+        <string>Адрес IEC104</string>
+        <string>Активное содержимое</string>
+        <string>Активность</string>
+        <string>Актуальная высота</string>
+        <string>Актуальная координата X</string>
+        <string>Актуальная координата Y</string>
+        <string>Актуальная ширина</string>
+        <string>Алгоритм ST</string>
+        <string>Архивировать</string>
+        <string>Атрибуты компиляции</string>
+        <string>Блокировать доступ к операционной системе</string>
+        <string>Большое значение</string>
+        <string>Булевская инверсия</string>
+        <string>Версия конфигурации проекта</string>
+        <string>Версия проекта</string>
+        <string>Версия среды разработки</string>
+        <string>Вертикальное выравнивание</string>
+        <string>Вид права</string>
+        <string>Видимость</string>
+        <string>Видимость столбца</string>
+        <string>Визуальный кэш</string>
+        <string>Включить масштабирование</string>
+        <string>Внешний Id прототипа</string>
+        <string>Внешний Id элемента</string>
+        <string>Внутренний параметр</string>
+        <string>Время</string>
+        <string>Время бездействия</string>
+        <string>Время последнего действия</string>
+        <string>Время простоя</string>
+        <string>Время сессии, мин</string>
+        <string>Всегда отображать в дереве</string>
+        <string>Выбранный элемент</string>
+        <string>Выделение слоя рамкой</string>
+        <string>Выполнение по условию</string>
+        <string>Выполнять запись на резервном</string>
+        <string>Выполнять на резервном</string>
+        <string>Высота заголовка всплывающих окон</string>
+        <string>Высота ресурса</string>
+        <string>Высота экрана</string>
+        <string>Геометрия</string>
+        <string>Горизонтальное выравнивание</string>
+        <string>Данные</string>
+        <string>Диалог</string>
+        <string>Динамический SVG</string>
+        <string>Длина</string>
+        <string>Длительность сессии</string>
+        <string>Для табличной конвертации</string>
+        <string>Дополнительный поток</string>
+        <string>Доступ</string>
+        <string>Доступ локальный</string>
+        <string>Доступ через OPC UA</string>
+        <string>Есть несохраненные изменения</string>
+        <string>Жирность</string>
+        <string>Завершать сеанс после окончания смены</string>
+        <string>Заголовок</string>
+        <string>Заголовок ST</string>
+        <string>Загруженные элементы</string>
+        <string>Задание типа доступа у канала</string>
+        <string>Заданная высота</string>
+        <string>Заданная ширина</string>
+        <string>Задержка завершения сеанса после окончания смены</string>
+        <string>Задержка записи при старте опроса (циклов)</string>
+        <string>Задержка сброса отказа на резервном, мс</string>
+        <string>Заливка фона</string>
+        <string>Записывать в конфигурацию</string>
+        <string>Запись в журнал</string>
+        <string>Запрашивать пароль для локального входа</string>
+        <string>Запрет загрузки системного ПО</string>
+        <string>Запрет масштабирования</string>
+        <string>Запрет наследования</string>
+        <string>Запрет одновременного входа одного пользователя</string>
+        <string>Запрещено</string>
+        <string>Значение</string>
+        <string>Значение источника</string>
+        <string>Значение поля сообщения</string>
+        <string>Значение приемника</string>
+        <string>Значения входов/выходов</string>
+        <string>Иконка</string>
+        <string>Имя</string>
+        <string>Имя исходного файла модели ifc</string>
+        <string>Имя модели</string>
+        <string>Имя операции</string>
+        <string>Имя отчета</string>
+        <string>Имя ресурса</string>
+        <string>Имя файла</string>
+        <string>Имя шрифта</string>
+        <string>Интервал автосохранения</string>
+        <string>Интерполяция бита</string>
+        <string>Интерполяция источника</string>
+        <string>Интерполяция приемника</string>
+        <string>Использование</string>
+        <string>Использовать для глобальных параметров</string>
+        <string>Использовать сложный пароль</string>
+        <string>Использовать тип LREAL вместо REAL в трансляторе</string>
+        <string>Используемое</string>
+        <string>Источник данных</string>
+        <string>Категории родителей</string>
+        <string>Категория</string>
+        <string>Категория настройки</string>
+        <string>Клавиатурный индекс</string>
+        <string>Классификация</string>
+        <string>Ключевое поле</string>
+        <string>Кодировка сохраняемых csv файлов</string>
+        <string>Кол-во элементов</string>
+        <string>Количество запросов</string>
+        <string>Количество каналов</string>
+        <string>Количество неповторяемых паролей</string>
+        <string>Количество подэлементов</string>
+        <string>Количество последовательных неуспешных попыток входа</string>
+        <string>Количество хранимых лог файлов</string>
+        <string>Комментарий</string>
+        <string>Конвертер</string>
+        <string>Конец выделения</string>
+        <string>Координата линии X1</string>
+        <string>Координата линии X2</string>
+        <string>Координата линии Y1</string>
+        <string>Координата линии Y2</string>
+        <string>Координата X</string>
+        <string>Координата Y</string>
+        <string>Курсив</string>
+        <string>Курсор</string>
+        <string>Кэш значений тем</string>
+        <string>Кэш значений тем по контролам</string>
+        <string>Кэш картинок</string>
+        <string>Левое поле для концов ветвлений</string>
+        <string>Левое поле для начала ветвлений</string>
+        <string>Локализованное имя библиотеки</string>
+        <string>Локализованное имя проекта</string>
+        <string>Локализуемое</string>
+        <string>Максимальная высота клеммника</string>
+        <string>Максимальное время</string>
+        <string>Максимальный размер одного лог файла (Мб)</string>
+        <string>Максимум</string>
+        <string>Масштаб редактора</string>
+        <string>Масштаб X</string>
+        <string>Масштаб Y</string>
+        <string>Масштабировать содержимое</string>
+        <string>Место исполнения</string>
+        <string>Место хранения состояния окон</string>
+        <string>Метки</string>
+        <string>Мигание</string>
+        <string>Минимальная длина пароля</string>
+        <string>Минимальная пауза между циклами</string>
+        <string>Минимальное время</string>
+        <string>Минимальный срок действия пароля</string>
+        <string>Минимум</string>
+        <string>Многострочность</string>
+        <string>Модификатор</string>
+        <string>Название хэш-функции</string>
+        <string>Наличие визуализации</string>
+        <string>Направление</string>
+        <string>Наследовать из шкалы</string>
+        <string>Начало выделения</string>
+        <string>Начальное значение</string>
+        <string>Начальный блок</string>
+        <string>Начальный индекс</string>
+        <string>Не использовать настройки, сделанные при работе в другом языке среды</string>
+        <string>Невалидность размещения</string>
+        <string>Необходимая опция RT</string>
+        <string>Неэксклюзивная модель сообщений шкалы AI</string>
+        <string>Нормализовать отображение геометрии</string>
+        <string>Обновлять по изменению</string>
+        <string>Объединение вложенных условий</string>
+        <string>Описание</string>
+        <string>Опции</string>
+        <string>Ориентация</string>
+        <string>Ориентация экрана</string>
+        <string>Отключаемое</string>
+        <string>Отключить исполнение</string>
+        <string>Отключить пароль</string>
+        <string>Отладочные значения</string>
+        <string>Отображаемое имя</string>
+        <string>Отображать в дереве выбора журнала</string>
+        <string>Отображать в палитре</string>
+        <string>Отображать параметры</string>
+        <string>Отображать при выборе перьев</string>
+        <string>Отображать события</string>
+        <string>Отображать элементы в дереве</string>
+        <string>Отобразить ссылкой</string>
+        <string>Отслеживать создание групп прав</string>
+        <string>Очистка памяти на каждом цикле задачи</string>
+        <string>Пакеты NuGet</string>
+        <string>Память</string>
+        <string>Параметры запуска RT</string>
+        <string>Пароль</string>
+        <string>Пароль должен содержать спецсимвол</string>
+        <string>Пароль оператора sa</string>
+        <string>Переключение</string>
+        <string>Перенос</string>
+        <string>Период задачи экрана, мсек</string>
+        <string>Период мигания</string>
+        <string>Период обновления</string>
+        <string>Период, мс</string>
+        <string>Платформа</string>
+        <string>По</string>
+        <string>Поддерживаемые протоколы</string>
+        <string>Поддержка задач</string>
+        <string>Поддержка масштабирования</string>
+        <string>Подключаемые dll</string>
+        <string>Подключение по условию</string>
+        <string>Подключенный код</string>
+        <string>Подтверждение</string>
+        <string>Подтип</string>
+        <string>Подтип для темы</string>
+        <string>Подчеркнутость</string>
+        <string>Позиция</string>
+        <string>Позиция терминирования ветки</string>
+        <string>Показывать линии сетки страниц</string>
+        <string>Показывать сетку</string>
+        <string>Показывать сетку страниц</string>
+        <string>Поле сообщения</string>
+        <string>Полноэкранный режим</string>
+        <string>Порт</string>
+        <string>Порядок</string>
+        <string>Порядок выполнения</string>
+        <string>Порядок категории</string>
+        <string>Порядок сортировки</string>
+        <string>Поток ветвления</string>
+        <string>Правое поле для концов ветвлений</string>
+        <string>Правое поле для начала ветвлений</string>
+        <string>Предельный объем памяти процесса (Мб)</string>
+        <string>Преобразование входящей связи</string>
+        <string>Привязанный элемент</string>
+        <string>Привязка к сетке</string>
+        <string>Признак нажатости</string>
+        <string>Признак развернутости</string>
+        <string>Признак размещенности элемента</string>
+        <string>Приоритет</string>
+        <string>Приоритет подключений клиентов</string>
+        <string>Приращение</string>
+        <string>Проверка экрана</string>
+        <string>Проверять ориентацию экрана</string>
+        <string>Проверять сенсорный экран</string>
+        <string>Программное имя</string>
+        <string>Программный обработчик</string>
+        <string>Продолжительность блокировки при превышении количества неуспешных попыток входа</string>
+        <string>Прозрачность</string>
+        <string>Производитель</string>
+        <string>Простой вид</string>
+        <string>Пространства имен</string>
+        <string>Путь связи</string>
+        <string>Радиус скругления рамки</string>
+        <string>Размер сетки</string>
+        <string>Размер тени</string>
+        <string>Размер шрифта</string>
+        <string>Разорванная связь</string>
+        <string>Разрешено</string>
+        <string>Раскрывать значение</string>
+        <string>Расширение</string>
+        <string>Расширенное Вертикальное выравнивание</string>
+        <string>Расширенное Горизонтальное выравнивание</string>
+        <string>Расширенное имя</string>
+        <string>Расширенный Вертикальный сдвиг</string>
+        <string>Расширенный Горизонтальный сдвиг</string>
+        <string>Режим выделения</string>
+        <string>Ресурс</string>
+        <string>С</string>
+        <string>Свойство по умолчанию</string>
+        <string>Связывание переменных</string>
+        <string>Сдвиг рамки</string>
+        <string>Скручивание X</string>
+        <string>Скручивание Y</string>
+        <string>Скрывать значение</string>
+        <string>Скрывать при отсутствии прав на управление</string>
+        <string>Скрыть параметр</string>
+        <string>Совместимые типы библиотек</string>
+        <string>Соль</string>
+        <string>Сортировка столбца</string>
+        <string>Состояние активности слоя</string>
+        <string>Сохранять</string>
+        <string>Сохранять пропорции</string>
+        <string>Спецификатор</string>
+        <string>Список значений</string>
+        <string>Список разрешенных браузеров клиентов</string>
+        <string>Список разрешенных IP-адресов подключений клиентов</string>
+        <string>Способ задания SFC условия или действия текстом ST</string>
+        <string>Способ записи</string>
+        <string>Способ исполнения</string>
+        <string>Способ исполнения old</string>
+        <string>Способ обновления</string>
+        <string>Способ отображения графиков</string>
+        <string>Справочный раздел</string>
+        <string>Срок действия пароля</string>
+        <string>Стиль рамки</string>
+        <string>Стиль шрифта</string>
+        <string>Столбец</string>
+        <string>Строка</string>
+        <string>Таймаут выполнения задач</string>
+        <string>Таймаут остановки системы</string>
+        <string>Текст</string>
+        <string>Тема</string>
+        <string>Терминированность ветки</string>
+        <string>Тип высоты</string>
+        <string>Тип зацикливания</string>
+        <string>Тип значения</string>
+        <string>Тип канала</string>
+        <string>Тип катушки</string>
+        <string>Тип контакта</string>
+        <string>Тип координат</string>
+        <string>Тип панели</string>
+        <string>Тип поля сообщения</string>
+        <string>Тип приемника</string>
+        <string>Тип размера</string>
+        <string>Тип транслятора</string>
+        <string>Тип условия журнала</string>
+        <string>Тип хранения БД</string>
+        <string>Тип ширины</string>
+        <string>Тип элемента</string>
+        <string>Тип X</string>
+        <string>Тип Y</string>
+        <string>Толщина рамки</string>
+        <string>Только выделенные действия</string>
+        <string>Только выделенные условия</string>
+        <string>Только связанные входы/выходы</string>
+        <string>Только чтение</string>
+        <string>Транслировать дочерние</string>
+        <string>Требовать пароль при подтверждении</string>
+        <string>Требуемая версия редактора</string>
+        <string>Требуемая версия среды разработки</string>
+        <string>Тултип</string>
+        <string>Угол поворота</string>
+        <string>Уровень предупреждений</string>
+        <string>Фиксировать попытки выполнения действий</string>
+        <string>Формат значений</string>
+        <string>Формат текста</string>
+        <string>Формировать историю действий</string>
+        <string>Формировать отказ при отказе всех модулей</string>
+        <string>Формировать отказ узла</string>
+        <string>Функция сравнения</string>
+        <string>Хэшированный пароль</string>
+        <string>Цвет рамки</string>
+        <string>Цвет текста</string>
+        <string>Цвет тени</string>
+        <string>Центр поворота X</string>
+        <string>Центр поворота Y</string>
+        <string>Частота мигания</string>
+        <string>Шаблон имени канала</string>
+        <string>Шаблон имени последовательного порта</string>
+        <string>Ширина ресурса</string>
+        <string>Ширина столбца</string>
+        <string>Ширина экрана</string>
+        <string>Язык исполнения</string>
+        <string>DPI экрана</string>
+        <string>GUID</string>
+        <string>Id драйвера</string>
+        <string>Id канала</string>
+        <string>Id настройки</string>
+        <string>Id описания</string>
+        <string>Id последнего действия</string>
+        <string>Id проекта библиотеки</string>
+        <string>Id элемента внешней библиотеки</string>
+        <string>IP адрес</string>
+        <string>MasterSCADA.BimServer.Model.Geometry</string>
+        <string>MasterSCADA.BimServer.Model.Metadata</string>
+        <string>MasterSCADA.BimServer.Model.ObjectDisplayNames</string>
+        <string>MasterSCADA.BimServer.Model.StoreyDisplayNames</string>
+        <string>MasterSCADA.Report.Report</string>
+        <string>MasterSCADA.Security.UseConfirmation</string>
+        <string>SourceMax</string>
+        <string>SourceMin</string>
+        <string>ST тип поля</string>
+        <string>TargetMax</string>
+        <string>TargetMin</string>
+        <string>Z порядок</string>
+      </UniquePropertiesNames>
+    </SearchColumn>
+  </Columns>
+</Query>

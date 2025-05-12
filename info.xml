@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PersistProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectId>0</ProjectId>
+  <ProjectName>pa_proekt</ProjectName>
+  <TypeName>MasterSCADA.Project.HMI</TypeName>
+  <ProjectConfiguration>MasterPLC</ProjectConfiguration>
+  <StoreTypeName>FirebirdStore</StoreTypeName>
+  <ProjectChange>2025-05-12T13:16:12.341477+05:00</ProjectChange>
+  <ProjectVersion>1803</ProjectVersion>
+  <ProjectCategoriesLocalized>{}</ProjectCategoriesLocalized>
+  <DatabaseVersion>WI-V2.5.8.27089 Firebird 2.5</DatabaseVersion>
+</PersistProjectInfo>

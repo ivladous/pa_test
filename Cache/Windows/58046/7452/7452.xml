@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Element xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="DataTable" Name="7452" ShortName="Таблица данных" UngroupedName="Контролы.Таблица данных" Tag="7452" Index="0">
+  <ID TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+    <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+  </ID>
+  <UsedSTTypes>
+    <string>HMI.ResourceType</string>
+    <string>DINT</string>
+    <string>LREAL</string>
+    <string>HMI.SolidColorType</string>
+    <string>HMI.GradientColorType</string>
+    <string>HMI.BorderStyleType</string>
+    <string>STRING</string>
+    <string>BOOL</string>
+    <string>HMI.TileType</string>
+    <string>HMI.HorizontalAlignType</string>
+    <string>HMI.VerticalAlignType</string>
+    <string>HMI.MouseCursorKinds</string>
+    <string>HMI.TableColumns</string>
+    <string>HMI.TableGridType</string>
+    <string>HMI.SaveStateType</string>
+    <string>HMI.SizeType</string>
+    <string>HMI.ProportionType</string>
+    <string>BYTE</string>
+    <string>HMI.EventChangeType</string>
+    <string>HMI.RowStyle</string>
+  </UsedSTTypes>
+  <Parameters>
+    <Parameter Name="Образ" ShortName="7308" Tag="7308" Role="SkinResource" Value="">
+      <ID TaskNumber="0" ItemID="7308" RawItemID="0" TypeHash="4" Path="" STType="HMI.ResourceType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Порядок Z" ShortName="7311" Tag="7311" Role="Z" Value="0">
+      <ID TaskNumber="0" ItemID="7311" RawItemID="0" TypeHash="6" Path="" STType="DINT" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Ширина" ShortName="7285" Tag="7285" Role="Width" Value="400">
+      <ID TaskNumber="0" ItemID="7285" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Высота" ShortName="7286" Tag="7286" Role="Height" Value="300">
+      <ID TaskNumber="0" ItemID="7286" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Угол поворота" ShortName="7287" Tag="7287" Role="Angle" Value="0">
+      <ID TaskNumber="0" ItemID="7287" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Масштаб X" ShortName="7288" Tag="7288" Role="ScaleX" Value="1">
+      <ID TaskNumber="0" ItemID="7288" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Масштаб Y" ShortName="7289" Tag="7289" Role="ScaleY" Value="1">
+      <ID TaskNumber="0" ItemID="7289" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Толщина рамки" ShortName="7290" Tag="7290" Role="BorderThickness" Value="1">
+      <ID TaskNumber="0" ItemID="7290" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Цвет рамки" ShortName="7291" Tag="7291" Role="BorderColor" Value="rgb(128,128,128)">
+      <ID TaskNumber="0" ItemID="7291" RawItemID="0" TypeHash="4" Path="" STType="HMI.SolidColorType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Заливка фона" ShortName="7292" Tag="7292" Role="BackgroundColor" Value="rgb(245,240,245)">
+      <ID TaskNumber="0" ItemID="7292" RawItemID="0" TypeHash="4" Path="" STType="HMI.GradientColorType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Прозрачность" ShortName="7293" Tag="7293" Role="Opacity" Value="100">
+      <ID TaskNumber="0" ItemID="7293" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Стиль рамки" ShortName="7294" Tag="7294" Role="BorderStyle" Value="0">
+      <ID TaskNumber="0" ItemID="7294" RawItemID="0" TypeHash="5" Path="" STType="HMI.BorderStyleType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Всплывающая подсказка" ShortName="7295" Tag="7295" Role="ToolTip" Value="">
+      <ID TaskNumber="0" ItemID="7295" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Мигание" ShortName="7296" Tag="7296" Role="Flash" Value="False">
+      <ID TaskNumber="0" ItemID="7296" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Размер тени" ShortName="7297" Tag="7297" Role="ShadowSize" Value="0">
+      <ID TaskNumber="0" ItemID="7297" RawItemID="0" TypeHash="6" Path="" STType="DINT" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Цвет тени" ShortName="7298" Tag="7298" Role="ShadowColor" Value="rgb(240,240,240)">
+      <ID TaskNumber="0" ItemID="7298" RawItemID="0" TypeHash="4" Path="" STType="HMI.SolidColorType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Изображение фона" ShortName="7299" Tag="7299" Role="Resource" Value="">
+      <ID TaskNumber="0" ItemID="7299" RawItemID="0" TypeHash="4" Path="" STType="HMI.ResourceType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Замостка фона" ShortName="7300" Tag="7300" Role="BackgroundTile" Value="2">
+      <ID TaskNumber="0" ItemID="7300" RawItemID="0" TypeHash="5" Path="" STType="HMI.TileType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Видимость" ShortName="7303" Tag="7303" Role="IsVisible" Value="True">
+      <ID TaskNumber="0" ItemID="7303" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Скрывать при отсутствии прав на управление" ShortName="7316" Tag="7316" Role="HideIfDenyControl" Value="False">
+      <ID TaskNumber="0" ItemID="7316" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Активность" ShortName="7304" Tag="7304" Role="IsEnabled" Value="True">
+      <ID TaskNumber="0" ItemID="7304" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Клавиатурный индекс" ShortName="7305" Tag="7305" Role="TabIndex" Value="0">
+      <ID TaskNumber="0" ItemID="7305" RawItemID="0" TypeHash="6" Path="" STType="DINT" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Координата X" ShortName="7301" Tag="7301" Role="X" Value="0">
+      <ID TaskNumber="0" ItemID="7301" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Координата Y" ShortName="7302" Tag="7302" Role="Y" Value="0">
+      <ID TaskNumber="0" ItemID="7302" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Горизонтальное выравнивание" ShortName="7312" Tag="7312" Role="HorizontalAlign" Value="1">
+      <ID TaskNumber="0" ItemID="7312" RawItemID="0" TypeHash="5" Path="" STType="HMI.HorizontalAlignType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Вертикальное выравнивание" ShortName="7313" Tag="7313" Role="VerticalAlign" Value="1">
+      <ID TaskNumber="0" ItemID="7313" RawItemID="0" TypeHash="5" Path="" STType="HMI.VerticalAlignType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Вид курсора" ShortName="7317" Tag="7317" Role="MouseCursorKind" Value="0">
+      <ID TaskNumber="0" ItemID="7317" RawItemID="0" TypeHash="5" Path="" STType="HMI.MouseCursorKinds" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Столбцы таблицы" ShortName="7306" Tag="7306" Role="TableColumns" Value="">
+      <ID TaskNumber="0" ItemID="7306" RawItemID="0" TypeHash="0" Path="" STType="HMI.TableColumns" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Источник данных" ShortName="7307" Tag="7307" Role="PanelDataSource" Value="0">
+      <ID TaskNumber="0" ItemID="7307" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Листание по страницам" ShortName="7309" Tag="7309" Role="IsPaged" Value="False">
+      <ID TaskNumber="0" ItemID="7309" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Тип линий сетки" ShortName="7314" Tag="7314" Role="GridType" Value="0">
+      <ID TaskNumber="0" ItemID="7314" RawItemID="0" TypeHash="5" Path="" STType="HMI.TableGridType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Сохранять состояние" ShortName="7318" Tag="7318" Role="SaveState" Value="0">
+      <ID TaskNumber="0" ItemID="7318" RawItemID="0" TypeHash="5" Path="" STType="HMI.SaveStateType" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Запрет изменения сортировки" ShortName="7310" Tag="7310" Role="DisableSortingChange" Value="False">
+      <ID TaskNumber="0" ItemID="7310" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="Формат имени экспорта" ShortName="7315" Tag="7315" Role="ExportNameFormat" Value="{Name}_{yyyy}-{MM}-{dd}-{HH}_{mm}_{ss}">
+      <ID TaskNumber="0" ItemID="7315" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <Connections />
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="XType" ShortName="XType" Tag="0" Role="XType" Value="1">
+      <ID TaskNumber="0" ItemID="4294967295" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="YType" ShortName="YType" Tag="0" Role="YType" Value="1">
+      <ID TaskNumber="0" ItemID="4294967294" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="ProportionType" ShortName="ProportionType" Tag="0" Role="ProportionType" Value="4">
+      <ID TaskNumber="0" ItemID="4294967293" RawItemID="0" TypeHash="5" Path="" STType="HMI.ProportionType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="WidthType" ShortName="WidthType" Tag="0" Role="WidthType" Value="1">
+      <ID TaskNumber="0" ItemID="4294967292" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="HeightType" ShortName="HeightType" Tag="0" Role="HeightType" Value="1">
+      <ID TaskNumber="0" ItemID="4294967291" RawItemID="0" TypeHash="5" Path="" STType="HMI.SizeType" UIDType="Inner" />
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="RowStyle" ShortName="RowStyle" Tag="0" Role="RowStyle" Value="">
+      <ID TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <ChildValues>
+        <Parameter xsi:type="RowParameter" Name="Высота" ShortName="7436" Tag="7436" Role="Height" Value="Auto">
+          <ID TaskNumber="0" ItemID="7436" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Толщина рамки" ShortName="7437" Tag="7437" Role="BorderThickness" Value="1">
+          <ID TaskNumber="0" ItemID="7437" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Цвет рамки" ShortName="7438" Tag="7438" Role="BorderColor" Value="rgb(128,128,128)">
+          <ID TaskNumber="0" ItemID="7438" RawItemID="0" TypeHash="4" Path="" STType="HMI.SolidColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Заливка фона" ShortName="7439" Tag="7439" Role="BackgroundColor" Value="rgb(245,240,245)">
+          <ID TaskNumber="0" ItemID="7439" RawItemID="0" TypeHash="4" Path="" STType="HMI.GradientColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Заливка фона четной строки" ShortName="7446" Tag="7446" Role="BackgroundColorEven" Value="rgb(255,255,255)">
+          <ID TaskNumber="0" ItemID="7446" RawItemID="0" TypeHash="4" Path="" STType="HMI.GradientColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Заливка фона при редактировании строки" ShortName="7434" Tag="7434" Role="BackgroundColorEdit" Value="rgb(187,187,187)">
+          <ID TaskNumber="0" ItemID="7434" RawItemID="0" TypeHash="4" Path="" STType="HMI.GradientColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Шрифт" ShortName="7440" Tag="7440" Role="FontName" Value="Tahoma">
+          <ID TaskNumber="0" ItemID="7440" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Размер текста" ShortName="7441" Tag="7441" Role="FontSize" Value="12">
+          <ID TaskNumber="0" ItemID="7441" RawItemID="0" TypeHash="6" Path="" STType="BYTE" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Цвет текста" ShortName="7442" Tag="7442" Role="TextColor" Value="rgb(0,0,0)">
+          <ID TaskNumber="0" ItemID="7442" RawItemID="0" TypeHash="4" Path="" STType="HMI.SolidColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Курсив" ShortName="7443" Tag="7443" Role="FontItalic" Value="False">
+          <ID TaskNumber="0" ItemID="7443" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Жирный" ShortName="7444" Tag="7444" Role="FontBold" Value="False">
+          <ID TaskNumber="0" ItemID="7444" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Подчеркнутый" ShortName="7445" Tag="7445" Role="FontUnderlined" Value="False">
+          <ID TaskNumber="0" ItemID="7445" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Мигание" ShortName="7435" Tag="7435" Role="Flash" Value="False">
+          <ID TaskNumber="0" ItemID="7435" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967290" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+      </ChildValues>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="SelectedRowStyle" ShortName="SelectedRowStyle" Tag="0" Role="SelectedRowStyle" Value="">
+      <ID TaskNumber="0" ItemID="4294967289" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+    <Parameter Name="HeaderRowStyle" ShortName="HeaderRowStyle" Tag="0" Role="HeaderRowStyle" Value="">
+      <ID TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <IsValueFromTheme>false</IsValueFromTheme>
+      <HasSubTypeName>true</HasSubTypeName>
+      <Exclude>false</Exclude>
+      <ChildValues>
+        <Parameter xsi:type="RowParameter" Name="Высота" ShortName="7420" Tag="7420" Role="Height" Value="Auto">
+          <ID TaskNumber="0" ItemID="7420" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Толщина рамки" ShortName="7421" Tag="7421" Role="BorderThickness" Value="1">
+          <ID TaskNumber="0" ItemID="7421" RawItemID="0" TypeHash="1" Path="" STType="LREAL" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Цвет рамки" ShortName="7422" Tag="7422" Role="BorderColor" Value="rgb(128,128,128)">
+          <ID TaskNumber="0" ItemID="7422" RawItemID="0" TypeHash="4" Path="" STType="HMI.SolidColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Заливка фона" ShortName="7423" Tag="7423" Role="BackgroundColor" Value="rgb(245,240,245)">
+          <ID TaskNumber="0" ItemID="7423" RawItemID="0" TypeHash="4" Path="" STType="HMI.GradientColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Заливка фона при фильтрации" ShortName="7430" Tag="7430" Role="BackgroundColorFilter" Value="rgb(200,190,200)">
+          <ID TaskNumber="0" ItemID="7430" RawItemID="0" TypeHash="4" Path="" STType="HMI.GradientColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Шрифт" ShortName="7424" Tag="7424" Role="FontName" Value="Tahoma">
+          <ID TaskNumber="0" ItemID="7424" RawItemID="0" TypeHash="4" Path="" STType="STRING" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Размер текста" ShortName="7425" Tag="7425" Role="FontSize" Value="12">
+          <ID TaskNumber="0" ItemID="7425" RawItemID="0" TypeHash="6" Path="" STType="BYTE" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Цвет текста" ShortName="7432" Tag="7432" Role="TextColor" Value="rgb(0,0,0)">
+          <ID TaskNumber="0" ItemID="7432" RawItemID="0" TypeHash="4" Path="" STType="HMI.SolidColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Цвет текста при фильтрации" ShortName="7426" Tag="7426" Role="TextColorFilter" Value="rgb(0,0,0)">
+          <ID TaskNumber="0" ItemID="7426" RawItemID="0" TypeHash="4" Path="" STType="HMI.SolidColorType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Курсив" ShortName="7427" Tag="7427" Role="FontItalic" Value="False">
+          <ID TaskNumber="0" ItemID="7427" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Жирный" ShortName="7428" Tag="7428" Role="FontBold" Value="False">
+          <ID TaskNumber="0" ItemID="7428" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Подчеркнутый" ShortName="7429" Tag="7429" Role="FontUnderlined" Value="False">
+          <ID TaskNumber="0" ItemID="7429" RawItemID="0" TypeHash="3" Path="" STType="BOOL" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+        <Parameter xsi:type="RowParameter" Name="Горизонтальное выравнивание" ShortName="7431" Tag="7431" Role="HorizontalAlign" Value="0">
+          <ID TaskNumber="0" ItemID="7431" RawItemID="0" TypeHash="5" Path="" STType="HMI.HorizontalAlignType" UIDType="Inner">
+            <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+              <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+            </Owner>
+          </ID>
+          <Parent TaskNumber="0" ItemID="4294967288" RawItemID="0" TypeHash="0" Path="" STType="HMI.RowStyle" UIDType="Inner" />
+          <IsValueFromTheme>false</IsValueFromTheme>
+          <HasSubTypeName>true</HasSubTypeName>
+          <Exclude>false</Exclude>
+          <Connections />
+          <IsDynamized>false</IsDynamized>
+          <ContiniuosUpdate>false</ContiniuosUpdate>
+        </Parameter>
+      </ChildValues>
+      <IsDynamized>false</IsDynamized>
+      <ContiniuosUpdate>false</ContiniuosUpdate>
+    </Parameter>
+  </Parameters>
+  <Events>
+    <Event Name="7377" ShortName="7377" Tag="7377" Role="Focus">
+      <ID TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="Focus" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <Actions />
+    </Event>
+    <Event Name="7378" ShortName="7378" Tag="7378" Role="LostFocus">
+      <ID TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="LostFocus" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+          <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+        </Owner>
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <Actions />
+    </Event>
+  </Events>
+  <Methods>
+    <Method Name="7405" ShortName="7405" Tag="7405" Role="DownloadCsv">
+      <ID TaskNumber="0" ItemID="7405" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <Parameters />
+    </Method>
+  </Methods>
+  <Permissions>
+    <Permission Name="DataTableEdit" ShortName="7449" Tag="7449">
+      <ID TaskNumber="0" ItemID="7449" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <Rights />
+      <DisplayName>Редактирование ячеек таблицы</DisplayName>
+      <RequirePassword>false</RequirePassword>
+    </Permission>
+    <Permission Name="DataTableFilter" ShortName="7450" Tag="7450">
+      <ID TaskNumber="0" ItemID="7450" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </ID>
+      <Parent TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" Path="" STType="" UIDType="Inner">
+        <Owner TaskNumber="0" ItemID="7452" RawItemID="0" TypeHash="0" STType="" UIDType="Inner" />
+      </Parent>
+      <Rights />
+      <DisplayName>Использование фильтров</DisplayName>
+      <RequirePassword>false</RequirePassword>
+    </Permission>
+  </Permissions>
+  <ObjectId>0</ObjectId>
+  <ServerTaskId>-1</ServerTaskId>
+  <ServerTaskItemId>0</ServerTaskItemId>
+  <InObjectInstance>false</InObjectInstance>
+  <Role>DataTable</Role>
+  <HasConnections>false</HasConnections>
+  <CellsStyle />
+</Element>

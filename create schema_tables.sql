@@ -6,7 +6,7 @@ CREATE TABLE parameters
 );
 INSERT INTO parameters (name) VALUES
 ('Давление'),
-('Скорость'),
+('Температура'),
 ('Мощность'),
 ('Объем'),
 ('Скорость');
